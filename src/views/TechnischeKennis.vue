@@ -1,0 +1,113 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  window.openFullscreen = (src, alt) => {
+    const fullscreenContainer = document.getElementById('fullscreen-container');
+    const fullscreenImage = document.getElementById('fullscreen-image');
+    const fullscreenCaption = document.getElementById('fullscreen-caption');
+
+    fullscreenImage.src = src;
+    fullscreenCaption.textContent = alt;
+    fullscreenContainer.style.display = 'flex';
+  };
+
+  window.closeFullscreen = () => {
+    const fullscreenContainer = document.getElementById('fullscreen-container');
+    fullscreenContainer.style.display = 'none';
+  };
+});
+</script>
+
+<template>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technische kennis en analyse</title>
+  </head>
+  <body>
+
+  <header>
+    <h1>Technische kennis en analyse</h1>
+    <h3>Ik ben flexibel genoeg om me snel de professionele werkwijze van het stagebedrijf en gebruikte technieken eigen
+      te maken. Ik kan technische oplossingen bedenken voor praktische problemen die bij deze werkwijze aansluiten.</h3>
+  </header>
+
+  <section>
+    <h2>Wat is de professionele werkwijze van TwoPine?</h2>
+    <p>De professionele werkwijze van TwoPine is als volgt: Voor de meeste projecten wordt gebruikgemaakt van een
+      combinatie van <strong>Laravel en Vue.js.</strong> Laravel wordt gebruikt als PHP-framework en Vue is een
+      front-end framework. Voor het stylen van de pagina’s wordt er binnen het bedrijf Tailwind gebruikt. Sinds ik
+      vooral als front-end stagiair werk, heb ik het meeste over <strong>Vue.js en Tailwind </strong> geleerd.</p>
+
+    <h3>Wat is Vue.js?</h3>
+    <p>Vue is een JavaScript-framework dat wordt gebruikt om websites interactief en gebruiksvriendelijk te maken. Vue
+      werkt met componenten, herbruikbare bouwblokken of code, en maakt het eenvoudig om dynamische functionaliteiten
+      aan websites toe te voegen. Deze componenten maken de code van de website ook een stuk overzichtelijker. Dit is
+      vooral fijn als je in een team ergens aan werkt.</p>
+
+    <h3>Wat is Tailwind?</h3>
+    <p>Tailwind is een CSS-framework dat gebruikmaakt van voorgeschreven HTML-classes. Hierdoor ben je minder tijd kwijt
+      aan het schrijven van CSS en helpt het met het consistent maken van de styling van je website. In Tailwind is het
+      gebruikelijk om stylesheets te maken. Dit is een bestand waarin je dingen zoals fonts en kleuren definieert voor
+      je gehele website.</p>
+    <p>Het is dus belangrijk dat deze componenten en stylesheets goed zijn ingesteld zodat ze in het gehele project
+      hergebruikt kunnen worden.</p>
+
+  </section>
+
+  <section>
+
+    <h2>Hoe heb ik deze technieken eigen gemaakt?</h2>
+    <p>Een voordeel van Vue.js is dat het redelijk te vergelijken is met React. React is een framework waar ik al wat
+      ervaring in had door lessen op school. Ook is er online uitgebreide Vue.js- en Tailwind-documentatie. Als ik
+      ergens vastzat, kon ik het altijd vragen aan een collega en er waren een paar projecten waarvan de front-end al af
+      was waarvan ik kon leren.</p>
+
+    <h2>Welke technische oplossing/toepassing <br> heb ik hiermee gemaakt?</h2>
+    <p><strong>Klant:</strong> Febelfin (Federatie van de Belgische bankensector)</p>
+    <p><strong>Project:</strong> Het project waar ik deze werkwijze heb toegepast is een dashboard voor de klant
+      Febelfin. Hiervoor moest ik een Figma-ontwerp namaken (dat ik zelf had gemaakt) met Vue.js, Tailwind en HTML. Dit
+      was een mooi project om te oefenen met de werkwijze van TwoPine.</p>
+
+    <h3>Vue.js-componenten</h3>
+    <p>In het Figma-ontwerp staan verschillende componenten. Vaak zijn dit bepaalde knoppen of invoervelden die over de
+      gehele website worden hergebruikt.</p>
+
+    <figure>
+      <img src="/img/technische-kennis/componenten_code.webp" alt="Foto van de huidige website" onclick="openFullscreen(this.src, this.alt)" />
+      <figcaption>
+        <p>Hier zie je een voorbeeld van hoe ik een knop (<code>PrimaryButton</code>) meerdere keren hergebruik in de code.</p>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <img src="/img/technische-kennis/componenten_voorbeeld.webp" alt="Foto van de huidige website" onclick="openFullscreen(this.src, this.alt)" />
+      <figcaption>
+        <p>Hier zie je hoe de knopper er op de pagina uitzien.</p>
+      </figcaption>
+    </figure>
+
+    <h3>Tailwind-stylesheet</h3>
+    <p>Voor dit project heb ik ook een stylesheet geschreven. Hierin heb ik de kleuren, fonts en schermgroottes bepaald
+      voor het gehele project.</p>
+
+    <figure>
+      <img src="/img/technische-kennis/febelfin_stylesheet.webp" alt="Foto van de huidige website" onclick="openFullscreen(this.src, this.alt)" />
+      <figcaption>
+        <p>Hier zie je de Tailwind-stylesheet die ik heb geschreven voor dit project.</p>
+      </figcaption>
+    </figure>
+  </section>
+  </body>
+
+  <div id="fullscreen-container" onclick="closeFullscreen()">
+    <span class="close-button">&times;</span>
+    <figure>
+      <img id="fullscreen-image" src="" alt="">
+      <figcaption id="fullscreen-caption"></figcaption>
+    </figure>
+  </div>
+
+</template>
+<style>
+
+</style>
