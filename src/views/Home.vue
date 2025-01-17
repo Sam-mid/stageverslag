@@ -28,6 +28,7 @@
       <li><a href="/home/maatschappelijke-verantwoordelijkheid">Maatschappelijke Verantwoordelijkheid</a></li>
       <li><a href="/home/projectmatig-werken">Projectmatig werken</a></li>
       <li><a href="/home/ondernemende-houding">Ondernemende houding</a></li>
+      <li><a href="/home/Ontwerpen-en-prototypen">Ontwerpen en prototype</a></li>
     </ul>
   </section>
 

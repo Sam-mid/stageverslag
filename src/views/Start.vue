@@ -18,7 +18,7 @@ export default {
 <style scoped>
 .start {
   @apply flex justify-center items-center flex-col;
-  background-image: url('/bg.png'); /* Pas het pad naar je afbeelding aan */
+  background-image: url('/bg.jpg'); /* Pas het pad naar je afbeelding aan */
   background-size: cover;
   background-position: center;
   width: 100vw;
