@@ -1,11 +1,32 @@
 <template>
 
   <section>
-    <h2 class="twopine">Over Twopine</h2>
-    <p>Twopine is een web agency gespecialiseerd in het maken van websites op maat. Opgericht in 2010. Het kantoor is gevestigd in Rijswijk en het team bestaat uit zeven vaste krachten en een stagiair (ik). De grootste klanten van Twopine komen uit de automotive en financiële branche. Bedrijven zoals ABN AMRO en  ikrij.nl </p>
+    <h2>Inleiding</h2>
+    <h3> Welkom </h3>
+    <p> Op deze website vind je alles over mijn meeloopstage bij Twopine Media en de projecten waaraan ik het afgelopen semester heb gewerkt. Aan elke competentie uit de handleiding heb ik een project gelinkt.</p>
+
+   <h3>Hoe ben ik bij Twopine terechtgekomen?</h3>
+    <p>Voordat ik begon met zoeken naar een stageplek, wist ik eigenlijk al dat ik met front-end en design wilde werken. Ik was ook al aan het oriënteren op bedrijven die op zoek waren naar een front-end stagiair. Tijdens de stagemarkt heb ik mijn portfolio laten zien bij de stand van Twopine, waarna ik uiteindelijk werd uitgenodigd voor een gesprek. In eerste instantie sprak het bedrijf mij ook aan omdat het op fietsafstand van mijn huis ligt.</p>
+    <p>Op kantoor heb ik een erg fijn gesprek gehad. Ik kreeg ook de indruk dat ik betrokken zou worden bij lopende projecten en dat er veel ruimte was om te leren. Na het gesprek kreeg ik vrijwel direct een stageplek aangeboden (waar ik natuurlijk ja op heb gezegd).</p>
+
+  <h3>Doelen</h3>
+    <p>Voorafgaand had ik een paar doelen die ik tijdens deze stage wilde bereiken:</p>
+    <ul>
+      <li>Ontdekken hoe het is om te werken in een professionele werkomgeving in plaats van op school.</li>
+      <li>Meer leren over de professionele werkwijze binnen een bedrijf.</li>
+      <li>Hoe vind ik het om fulltime met front-end bezig te zijn?</li>
+    </ul>
   </section>
 
+
+
   <section>
+    <h2 class="twopine">Over Twopine</h2>
+    <p>Twopine is een web agency gespecialiseerd in het maken van websites op maat. Opgericht in 2010. Het kantoor is gevestigd in Rijswijk en het team bestaat uit zeven vaste krachten en een stagiair (ik).  </p>
+    <p>De grootste klanten van Twopine komen uit de automotive en financiële branche. <br> Bedrijven zoals ABN AMRO en  ikrij.nl </p>
+  </section>
+
+  <section class="compententies">
     <h2>Competenties</h2>
     <p>Lijst met competenties</p>
     <ul>
@@ -29,10 +50,9 @@
     <h2>Onderzoeksverslag</h2>
     <p>Onderzoeksverslag bijlage</p>
     <ul>
-      <iframe src="/onderzoeksresultaten.pdf" width="600" height="800" style="border:none;"></iframe>
+<!--      <iframe src="/onderzoeksresultaten.pdf" width="600" height="800" style="border:none;"></iframe>-->
     </ul>
   </section>
-
 </template>
 
 <style scoped>
