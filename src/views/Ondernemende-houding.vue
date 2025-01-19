@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
     </p>
 
     <figure>
-      <img src="/img/ondernemende_houding/voorbeeld1.webp" alt="Resultaat van crop.photo"
+      <img src="/img/ondernemende_houding/voorbeeld1.webp" alt="Resultaten van het python script."
            onclick="openFullscreen(this.src, this.alt)"/>
       <figcaption>Resultaten van het python script.</figcaption>
     </figure>
@@ -105,6 +105,14 @@ document.addEventListener("DOMContentLoaded", () => {
       Twopine als de klant tevreden mee zijn. Bovendien kan dit script verder worden uitgebreid voor andere klanten en
       webshops.
     </p>
+  </section>
+
+  <section>
+    <h2> Reflectie </h2>
+    <p> Ik denk zelf dat ik voor dit onderdeel aan alle eisen voldoe. Van tevoren had ik niet gedacht dat ik zelf een oplossing zou kunnen bouwen voor dit probleem. Maar omdat ik ervoor koos om me verder te verdiepen toen mijn eerste poging niet lukte, is het toch gelukt. Ik ben blij dat ik iets heb kunnen maken dat in de toekomst hergebruikt kan worden binnen Twopine, ook wanneer mijn stage voorbij is.</p>
+    <h3>Wat zou ik volgende keer anders doen?</h3>
+    <p> Hoewel het resultaat goed werkt, weet ik niet of ik de volgende keer dezelfde aanpak zou gebruiken. Ik zou de huidige code niet heel veel meer kunnen uitbreiden, aangezien ik weinig verstand heb van Python-code. Omdat de huidige code afkomstig is van internet en ChatGPT, heb ik tijdens dit project ook weinig nieuws geleerd over Python. </p>
+    <p> Achteraf gezien had ik het beter kunnen proberen te maken in JavaScript (ik ben er vrij zeker van dat dat ook had gekund). </p>
   </section>
 
   <div id="fullscreen-container" onclick="closeFullscreen()">

@@ -1,4 +1,7 @@
 <script>
+import {defineComponent} from "vue";
+import Navbar from "@/components/Navbar.vue";
+
 document.addEventListener("DOMContentLoaded", () => {
   window.openFullscreen = (src, alt) => {
     const fullscreenContainer = document.getElementById('fullscreen-container');
@@ -15,6 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
     fullscreenContainer.style.display = 'none';
   };
 });
+
+export default defineComponent({
+  components: {Navbar}
+})
 </script>
 
 <template>
@@ -24,6 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
     <title>Technische kennis en analyse</title>
   </head>
   <body>
+
+<!--  <navbar />-->
 
   <header>
     <h1>Technische kennis en analyse</h1>
@@ -55,7 +64,6 @@ document.addEventListener("DOMContentLoaded", () => {
   </section>
 
   <section>
-
     <h2>Hoe heb ik deze technieken eigen gemaakt?</h2>
     <p>Een voordeel van Vue.js is dat het redelijk te vergelijken is met React. React is een framework waar ik al wat
       ervaring in had door lessen op school. Ook is er online uitgebreide Vue.js- en Tailwind-documentatie. Als ik
@@ -63,6 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
       was waarvan ik kon leren.</p>
 
     <h2>Welke technische oplossing/toepassing <br> heb ik hiermee gemaakt?</h2>
+    <h3> Over dit project</h3>
     <p><strong>Klant:</strong> Febelfin (Federatie van de Belgische bankensector)</p>
     <p><strong>Project:</strong> Het project waar ik deze werkwijze heb toegepast is een dashboard voor de klant
       Febelfin. Hiervoor moest ik een Figma-ontwerp namaken (dat ik zelf had gemaakt) met Vue.js, Tailwind en HTML. Dit
@@ -89,7 +98,6 @@ document.addEventListener("DOMContentLoaded", () => {
     <h3>Tailwind-stylesheet</h3>
     <p>Voor dit project heb ik ook een stylesheet geschreven. Hierin heb ik de kleuren, fonts en schermgroottes bepaald
       voor het gehele project.</p>
-
     <figure>
       <img src="/img/technische-kennis/febelfin_stylesheet.webp" alt="Foto van de huidige website" onclick="openFullscreen(this.src, this.alt)" />
       <figcaption>
@@ -97,6 +105,16 @@ document.addEventListener("DOMContentLoaded", () => {
       </figcaption>
     </figure>
   </section>
+
+  <section>
+    <h2>Reflectie</h2>
+    <p> Natuurlijk is dit maar een klein voorbeeld van wat er mogelijk is met Vue.js en Tailwind. Ik heb nu ook ingezien dat deze manier van programmeren (modulair programmeren) vaak de basis vormt van veel grote en professionele front-end projecten. Hoewel er nog veel andere technieken en mogelijkheden zijn binnen deze twee frameworks, heb ik het gevoel dat ik de basis nu aardig onder de knie heb.</p>
+    <p> Wat ik vooral goed vond gaan, was het leren via de documentatie van Vue en Tailwind. Dit was heel handig tijdens het leren en zou ik zeker aanraden aan anderen die hier ook mee willen beginnen. </p>
+    <p>Iets wat ik in het algemeen nog lastig vind, is het vinden van de juiste benaming voor componenten. Dit is iets waar ik tijdens het programmeren in het algemeen nog moeite mee heb.</p>
+    <h3>Zou ik Vue.js en Tailwind in de toekomst weer gebruiken?</h3>
+    <p> Ja, zeker! Ik heb nu de smaak aardig te pakken. Zelfs dit verslag is met behulp van Vue.js gemaakt! </p>
+  </section>
+
   </body>
 
   <div id="fullscreen-container" onclick="closeFullscreen()">

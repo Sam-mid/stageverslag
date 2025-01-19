@@ -21,7 +21,9 @@ export default {
   </header>
 
   <section>
-    <p>Voor dit onderdeel wil ik graag mijn ervaring delen over een project waar ik aan het begin van mijn stage aan heb gewerkt, namelijk: een interactieve web reclame voor het speelgoedmerk LOL Surprise. Een interactieve web reclame is een reclame die meestal wordt afgespeeld voordat je een website bezoekt en waar interactie in verwerkt zit, bijvoorbeeld een "call to action" om naar een productpagina te navigeren. In de briefing stond dat de doelgroep voor deze reclames meisjes van 4 tot 8 zijn.</p>
+    <h2>Over dit project</h2>
+    <p><strong>Klant:</strong> jimmy's agency</p>
+    <p><strong>Project:</strong> Voor dit onderdeel wil ik graag mijn ervaring delen over een project waar ik aan het begin van mijn stage aan heb gewerkt, namelijk: een interactieve web reclame voor het speelgoedmerk LOL Surprise. Een interactieve web reclame is een reclame die meestal wordt afgespeeld voordat je een website bezoekt en waar interactie in verwerkt zit, bijvoorbeeld een "call to action" om naar een productpagina te navigeren. In de briefing stond dat de doelgroep voor deze reclames meisjes van 4 tot 8 zijn.</p>
     <p>Ik heb voor deze klant twee reclames geprogrammeerd, waarvan ik er zelfs een heb ontworpen (opmaak gemaakt op basis van aangeleverde voorbeelden van de klant). Ik heb nog nooit eerder voor zo’n jonge doelgroep iets gemaakt, dus wil ik in dit onderdeel reflecteren op de maatschappelijke/ethische implicaties van de reclames en wat ik er uiteindelijk zelf van vond om aan dit project te werken.</p>
   </section>
 

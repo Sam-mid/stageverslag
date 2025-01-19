@@ -109,6 +109,12 @@ document.addEventListener("DOMContentLoaded", () => {
           <figcaption>Dit is hoe een weekplanning eruitziet.</figcaption>
         </figure>
       </section>
+
+    <section>
+      <h2>Conclusie</h2>
+      <p> Ik vind dat ik in de loop van de stageperiode steeds meer gewend ben geraakt aan het werken in teamverband en daar ook beter in ben geworden. Dit komt mede door het gebruik van de verschillende communicatiemiddelen die ik heb laten zien. Natuurlijk is dat niet alles; ik bespreek projecten ook vaak in persoon. Toch ben ik het ermee eens dat dit soort tools helpen om een project overzichtelijk te houden, vooral wanneer je er met meerdere mensen aan werkt.</p>
+      <p>Wat ik wel nog lastig vind is het vinden van de juiste benamingen in bijvoorbeeld Figma of in mijn code. Bij grote projecten wordt dit snel onoverzichtelijk en lastig te lezen. In de toekomst wil ik hier graag wat beter in worden om mijn werk nog duidelijker over te brengen naar de belanghebbenden.</p>
+    </section>
   </main>
   </body>
 
