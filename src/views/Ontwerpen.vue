@@ -24,7 +24,7 @@
 
   <section>
     <h2>Ik kan vanuit user stories een interactie-ontwerp opstellen. Als basis voor verschillende prototypes</h2>
-    <h3>briefing</h3>
+    <h3>Briefing</h3>
     <p>
       Het project begon bij een briefing van de klant. Dit was een opgeleverd Word-document met daarin een aantal voorwaarden waar de landingspagina aan moet voldoen:
     </p>
@@ -34,7 +34,7 @@
       <li>Er zijn acht menu-items die op de landingspagina moeten komen.</li>
     </ul>
     <figure>
-      <img src="" alt="Foto van de briefing">
+      <img src="/img/ontwerpen/briefing.webp" alt="Foto van de briefing" onclick="openFullscreen(this.src, this.alt)">
       <figcaption>Hier zie je hoe de voorwaarden in de briefing gesteld zijn.</figcaption>
     </figure>
   </section>
@@ -47,7 +47,7 @@
       Voor de eerste versie heb ik inspiratie genomen van andere clubwebsites en natuurlijk de huisstijl van ADO zelf.
     </p>
     <figure>
-      <img src="" alt="Foto van eerste ontwerp">
+      <img src="/img/ontwerpen/blockout.webp" alt="Foto van eerste ontwerp" onclick="openFullscreen(this.src, this.alt)">
       <figcaption>Hier zie je de eerste versie van mijn ontwerp.</figcaption>
     </figure>
     <p>
@@ -55,13 +55,13 @@
     </p>
     <figure>
       <video controls>
-        <source src="" type="video/mp4">
+        <source src="/img/ontwerpen/hoover_menu.mp4" type="video/mp4">
         Je browser ondersteunt geen video-afspeelformaat.
       </video>
       <figcaption>Video van het eerste interactie-ontwerp.</figcaption>
     </figure>
     <figure>
-      <img src="" alt="Foto van mobiele versie">
+      <img class="mobile" src="/img/ontwerpen/mobiel_menu.webp" alt="Foto van mobiele versie" onclick="openFullscreen(this.src, this.alt)">
       <figcaption>Mobiele versie van het ontwerp.</figcaption>
     </figure>
   </section>
@@ -74,7 +74,7 @@
       Deze versie heeft verschillende menublokken die de klant kan hernoemen of verschuiven.
     </p>
     <figure>
-      <img src="" alt="Foto van derde ontwerp">
+      <img src="/img/ontwerpen/blokken.webp" alt="Foto van derde ontwerp" onclick="openFullscreen(this.src, this.alt)">
       <figcaption>Hier zie je hoe het derde ontwerp eruitziet.</figcaption>
     </figure>
     <p>
@@ -88,7 +88,7 @@
       <li>Een blok uit de eerste briefing was vergeten.</li>
     </ul>
     <figure>
-      <img src="" alt="Foto van verbeterd ontwerp">
+      <img src="/img/ontwerpen/feedback_verwerkt.webp" alt="Foto van verbeterd ontwerp" onclick="openFullscreen(this.src, this.alt)">
       <figcaption>Het verbeterde ontwerp na verwerking van de feedback.</figcaption>
     </figure>
   </section>
@@ -107,5 +107,26 @@
     </p>
   </section>
   </body>
+
+  <div id="fullscreen-container" onclick="closeFullscreen()">
+    <span class="close-button">&times;</span>
+    <figure>
+      <img id="fullscreen-image" src="" alt="">
+      <figcaption id="fullscreen-caption"></figcaption>
+    </figure>
+  </div>
+
 </template>
-<style scoped></style>
+<style scoped>
+
+.mobile{
+  margin: 20px auto;
+  text-align: center;
+  max-width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px;
+  max-height: 2000px;
+}
+
+</style>

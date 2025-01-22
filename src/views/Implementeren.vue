@@ -13,6 +13,7 @@
       <p><strong>Klant:</strong> Jimmy's Agency</p>
       <p><strong>Project:</strong> Het maken van een interactieve webreclame voor het bordspel Sequence. Het was belangrijk dat deze reclame zo in elkaar zat dat het vertaald kon worden naar meerdere talen. Voor deze reclame heb ik ook het ontwerp gemaakt, maar op deze pagina vertel ik meer over het ontwikkelproces.</p>
       <p>De webpagina werd telkens geüpload op Weborama. Dat is een online tool waarmee je webreclames kan uploaden en verspreiden. Binnen Weborama kan je bijvoorbeeld ook bijhouden wanneer en hoe vaak er op je reclame geklikt wordt.</p>
+
     </section>
 
     <section>
