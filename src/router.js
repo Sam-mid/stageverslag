@@ -6,6 +6,7 @@ import ProjectmatigWerken from "./views/Projectmatig-werken.vue";
 import OndernemendeHouding from "./views/Ondernemende-houding.vue";
 import TechnischeKennis from "./views/TechnischeKennis.vue";
 import OntwerpenEnPrototypen from "./views/Ontwerpen.vue";
+import Implementeren from "./views/Implementeren.vue";
 
 import Uitwisseling from "./views/Uitwisseling.vue";
 
@@ -17,7 +18,9 @@ const routes = [
     {path: '/home/maatschappelijke-verantwoordelijkheid', component: Maatschappelijkeverantwoordelijkheid},
     {path: '/home/projectmatig-werken', component: ProjectmatigWerken},
     {path: '/home/ondernemende-houding', component: OndernemendeHouding},
-    {path: '/home/Ontwerpen-en-prototypen', component: OntwerpenEnPrototypen},
+    {path: '/home/ontwerpen-en-prototypen', component: OntwerpenEnPrototypen},
+    {path: '/home/implementeren-testen-opleveren', component: Implementeren},
+
 
 
     {path: '/home/uitwisseling', component: Uitwisseling},

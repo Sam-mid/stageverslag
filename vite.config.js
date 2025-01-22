@@ -5,6 +5,10 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import { templateCompilerOptions } from '@tresjs/core'
 
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+
+
 
 // https://vite.dev/config/
 export default defineConfig({

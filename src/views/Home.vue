@@ -26,7 +26,6 @@ import navbar from '@/components/Navbar.vue';
   </section>
 
 
-
   <section>
     <h2 id="over-twopine" class="twopine">Over Twopine</h2>
     <p>Twopine is een web agency gespecialiseerd in het maken van websites op maat. Opgericht in 2010. Het kantoor is gevestigd in Rijswijk en het team bestaat uit zeven vaste krachten en een stagiair (ik).  </p>
@@ -41,7 +40,8 @@ import navbar from '@/components/Navbar.vue';
       <li><a href="/home/maatschappelijke-verantwoordelijkheid">Maatschappelijke Verantwoordelijkheid</a></li>
       <li><a href="/home/projectmatig-werken">Projectmatig werken</a></li>
       <li><a href="/home/ondernemende-houding">Ondernemende houding</a></li>
-      <li><a href="/home/Ontwerpen-en-prototypen">Ontwerpen en prototype</a></li>
+      <li><a href="/home/ontwerpen-en-prototypen">Ontwerpen en prototype</a></li>
+      <li><a href="/home/implementeren-testen-opleveren"> Implementeren, testen en opleveren</a></li>
     </ul>
   </section>
 
