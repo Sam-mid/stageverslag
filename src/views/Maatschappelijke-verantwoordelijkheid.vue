@@ -14,10 +14,11 @@ export default {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maatschappelijke Verantwoordelijkheid</title>
   </head>
+
   <body>
   <header>
     <h1>Maatschappelijke Verantwoordelijkheid</h1>
-    <h3> <strong> "Ik verdiep me naast de directe gebruikers ook in andere stakeholders en maatschappelijke ontwikkelingen. Ik kan maatschappelijke en ethische implicaties van producten waaraan ik meewerk benoemen, en er een onderbouwde mening over vormen."</strong></h3>
+    <h3>Ik verdiep me naast de directe gebruikers ook in andere stakeholders en maatschappelijke ontwikkelingen. Ik kan maatschappelijke en ethische implicaties van producten waaraan ik meewerk benoemen, en er een onderbouwde mening over vormen.</h3>
   </header>
 
   <section>

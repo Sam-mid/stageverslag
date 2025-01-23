@@ -42,6 +42,7 @@ import navbar from '@/components/Navbar.vue';
       <li><a href="/home/ondernemende-houding">Ondernemende houding</a></li>
       <li><a href="/home/ontwerpen-en-prototypen">Ontwerpen en prototype</a></li>
       <li><a href="/home/implementeren-testen-opleveren"> Implementeren, testen en opleveren</a></li>
+      <li><a href="/home/lerend-vermogen">Lerend vermogen</a></li>
     </ul>
   </section>
 

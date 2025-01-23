@@ -7,6 +7,7 @@ import OndernemendeHouding from "./views/Ondernemende-houding.vue";
 import TechnischeKennis from "./views/TechnischeKennis.vue";
 import OntwerpenEnPrototypen from "./views/Ontwerpen.vue";
 import Implementeren from "./views/Implementeren.vue";
+import LerendVermogen from "./views/Lerend-vermogen.vue";
 
 import Uitwisseling from "./views/Uitwisseling.vue";
 
@@ -20,6 +21,7 @@ const routes = [
     {path: '/home/ondernemende-houding', component: OndernemendeHouding},
     {path: '/home/ontwerpen-en-prototypen', component: OntwerpenEnPrototypen},
     {path: '/home/implementeren-testen-opleveren', component: Implementeren},
+    {path: '/home/lerend-vermogen', component: LerendVermogen},
 
 
 
