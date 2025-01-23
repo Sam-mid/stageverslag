@@ -102,9 +102,13 @@
     <p>
       Tijdens de workshop waren er vijf leden van de stichting aanwezig. De workshop begon met het tonen van het nieuwe ontwerp. Iedereen leek het menu te begrijpen, maar ze waren het erover eens dat ze zelf de foto’s in het menu willen kunnen uitkiezen.
     </p>
-    <p>
-      Ik ben trots op het resultaat en dat mijn ontwerp uiteindelijk ook op de website gebruikt gaat worden. Natuurlijk is dit niet het uiteindelijke ontwerp, en er zullen nog wat aanpassingen komen in de toekomst.
-    </p>
+  </section>
+
+  <section>
+    <h2> Reflectie </h2>
+    <p>Dit is misschien wel mijn favoriete project van mijn stageperiode. Ik vind het supergaaf om iets gemaakt te hebben dat uiteindelijk ook op de website van ADO Den Haag komt te staan. Natuurlijk is dit niet het uiteindelijke ontwerp, en zullen er in de toekomst nog wat aanpassingen worden gemaakt. Wat dit project extra leuk maakt, is dat ik meerdere keren met de klant heb kunnen spreken, zowel online als in persoon.</p>
+    <p>Wat ik volgende keer wel anders zou doen, is een meer gestructureerde test opzetten en echt met de doelgroep in gesprek gaan. Voor dit project was daar helaas niet echt ruimte voor (ook al vind ik dat de leden van de stichting ook onder de doelgroep vallen).</p>
+    <p>Ik merk wel dat zulke uitgebreide gebruikerstests niet echt gebruikelijk zijn bij TwoPine vanwege een gebrek aan tijd. Maar in de toekomst, bijvoorbeeld tijdens mijn afstudeerstage, zou ik dit graag nog eens willen doen.</p>
   </section>
   </body>
 

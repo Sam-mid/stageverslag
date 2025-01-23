@@ -37,12 +37,12 @@ import navbar from '@/components/Navbar.vue';
     <p>Lijst met competenties</p>
     <ul>
       <li><a href="/home/technische-kennis-en-analyse">Technische kennis en analyse</a></li>
-      <li><a href="/home/maatschappelijke-verantwoordelijkheid">Maatschappelijke Verantwoordelijkheid</a></li>
-      <li><a href="/home/projectmatig-werken">Projectmatig werken</a></li>
-      <li><a href="/home/ondernemende-houding">Ondernemende houding</a></li>
-      <li><a href="/home/ontwerpen-en-prototypen">Ontwerpen en prototype</a></li>
       <li><a href="/home/implementeren-testen-opleveren"> Implementeren, testen en opleveren</a></li>
+      <li><a href="/home/ontwerpen-en-prototypen">Ontwerpen en prototype</a></li>
+      <li><a href="/home/ondernemende-houding">Ondernemende houding</a></li>
+      <li><a href="/home/projectmatig-werken">Projectmatig werken</a></li>
       <li><a href="/home/lerend-vermogen">Lerend vermogen</a></li>
+      <li><a href="/home/maatschappelijke-verantwoordelijkheid">Maatschappelijke Verantwoordelijkheid</a></li>
     </ul>
   </section>
 
