@@ -38,6 +38,7 @@
     <ul>
       <li><a href="/home/technische-kennis-en-analyse">Technische kennis en analyse</a></li>
       <li><a href="/home/implementeren-testen-opleveren"> Implementeren, testen en opleveren</a></li>
+      <li><a href="/home/conceptualiseren">Conceptualiseren</a></li>
       <li><a href="/home/ontwerpen-en-prototypen">Ontwerpen en prototype</a></li>
       <li><a href="/home/ondernemende-houding">Ondernemende houding</a></li>
       <li><a href="/home/projectmatig-werken">Projectmatig werken</a></li>
