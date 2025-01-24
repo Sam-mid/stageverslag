@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import navbar from '@/components/Navbar.vue';
+// import navbar from '@/components/Navbar.vue';
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import navbar from '@/components/Navbar.vue';
   <section id="inleiding">
 
     <h2>Inleiding</h2>
-    <h3> Welkom </h3>
+    <h3>Welkom</h3>
     <p> Op deze website vind je alles over mijn meeloopstage bij Twopine Media en de projecten waaraan ik het afgelopen semester heb gewerkt. Aan elke competentie uit de handleiding heb ik een project gelinkt. Elke competentie een aan het begin een omschrijving van het project en op het eind een korte reflectie over mijn ervaring.</p>
 
     <h3>Hoe ben ik bij Twopine terechtgekomen?</h3>
