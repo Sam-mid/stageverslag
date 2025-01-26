@@ -71,6 +71,14 @@
       <p>De manier waarop ik tijdens de stage heb gereflecteerd zou ik zeker vaker doen. Ik heb het gevoel alsof ik er echt wat van op heb gestoken. Ik denk dat ik op deze manier mijzelf door de stage heen heb kunnen ontwikkelen door feedback op te slaan om later naar terug te kijken, zowel digitaal als op papier. Ook heb ik er veel aan gehad toen ik begon met het schrijven van dit verslag.</p>
       <p>Volgende keer zou ik wel een paar dingen anders doen. Namelijk nog gestructureerden om feedback te vragen. Ik vroeg vaak pas om feedback als ik ergens niet uitkwam in plaats van dat ik om vaste feedback momenten heb ingepland.</p>
     </section>
+
+    <div id="fullscreen-container" onclick="closeFullscreen()">
+      <span class="close-button">&times;</span>
+      <figure>
+        <img id="fullscreen-image" src="" alt="">
+        <figcaption id="fullscreen-caption"></figcaption>
+      </figure>
+    </div>
   </main>
 </template>
 

@@ -35,13 +35,13 @@
 
     <section id="fotocollage">
       <div class="collage">
-        <img src="/img/fotos/foto1.png" alt="Beschrijving van foto 1" onclick="openFullscreen(this.src, this.alt)">
-        <img src="/img/fotos/foto2.jpg" alt="Beschrijving van foto 2" onclick="openFullscreen(this.src, this.alt)">
-        <img src="/img/fotos/foto3.png" alt="Beschrijving van foto 3" onclick="openFullscreen(this.src, this.alt)">
-        <img src="/img/fotos/foto4.jpeg" alt="Beschrijving van foto 4" onclick="openFullscreen(this.src, this.alt)">
-        <img src="/img/fotos/foto5.jpeg" alt="Beschrijving van foto 5" onclick="openFullscreen(this.src, this.alt)">
-        <img src="/img/fotos/foto6.png" alt="Beschrijving van foto 6" onclick="openFullscreen(this.src, this.alt)">
-        <img src="/img/fotos/foto7.jpeg" alt="Beschrijving van foto 7" onclick="openFullscreen(this.src, this.alt)">
+        <img src="/img/fotos/foto1.png" alt="Eerste dag" onclick="openFullscreen(this.src, this.alt)">
+        <img src="/img/fotos/foto2.jpg" alt="Afstudeermarkt CMGT" onclick="openFullscreen(this.src, this.alt)">
+        <img src="/img/fotos/foto3.png" alt="Kerstdiner" onclick="openFullscreen(this.src, this.alt)">
+        <img src="/img/fotos/foto4.jpeg" alt="Kerstontbijt ADO" onclick="openFullscreen(this.src, this.alt)">
+        <img src="/img/fotos/foto5.jpeg" alt="Sinterklaas 2024" onclick="openFullscreen(this.src, this.alt)">
+        <img src="/img/fotos/foto6.png" alt="Eerste kick-off van 2025" onclick="openFullscreen(this.src, this.alt)">
+        <img src="/img/fotos/foto7.jpeg" alt="Stagemarkt Haagse Hogeschool" onclick="openFullscreen(this.src, this.alt)">
       </div>
     </section>
 

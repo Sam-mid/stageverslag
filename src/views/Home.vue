@@ -60,9 +60,8 @@ import ColofonFooter from '../components/Footer.vue';
 
   <section id="uitwisseling">
     <h2>Uitwisseling</h2>
-    <p>Mijn ervaring op uitwisseling</p>
     <ul>
-      <li><a href="/home/uitwisseling">Uitwisseling</a></li>
+      <li><a href="/home/uitwisseling">Klik hier om meer te lezen over mijn ervaringen om uitwisseling</a></li>
     </ul>
   </section>
 
