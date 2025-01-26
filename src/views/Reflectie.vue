@@ -3,36 +3,37 @@ import navbar from '@/components/Navbar.vue';
 </script>
 
 <template>
-<navbar/>
+  <navbar/>
   <header>
     <h1>Algemene reflectie</h1>
   </header>
   <section>
     <h2>Doelen</h2>
-    <p>Voorafgaand aan de stage hed ik drie doelen opgesteld: </p>
-    <h3>Ontdekken hoe het is om te werken in een professionele werkomgeving in plaats van op school.  </h3>
+    <p>Voorafgaand aan de stage had ik drie doelen opgesteld:</p>
+    <h3>Ontdekken hoe het is om te werken in een professionele werkomgeving in plaats van op school.</h3>
     <p>Ik vond het erg prettig om binnen een professionele werkomgeving te werken. Aan het begin van de dag is er een stand-up, zodat je weet waar iedereen mee aan de slag gaat. Iedereen heeft zijn eigen expertise, waardoor je ook van elkaar kunt leren. Tijdens een schoolproject is het hele proces vaak wat chaotischer en heeft iedereen ongeveer dezelfde kennis, aangezien we allemaal dezelfde opleiding volgen.</p>
     <h3>Meer leren over de professionele werkwijze binnen een bedrijf.</h3>
     <p>Ik vond het vooral interessant om te leren hoe andere bedrijven te werk gaan en hoe dat verschilt van de werkwijze op school. Mij viel vooral op hoe snel je nieuwe technieken oppakt als je er tijdens het werken mee bezig bent, zolang je de basiskennis maar hebt.</p>
     <h3>Hoe vind ik het om fulltime met front-end bezig te zijn?</h3>
-    <p>Tijdens de stage ben ik erachter gekomen dat ik het leuker vind om verschillende taken door de week heen te hebben in plaats van alleen met front-end bezig te zijn. Daarnaast vind ik het fijn om bij het gehele proces betrokken te zijn, van ontwerpen tot aan het bouwen van een website.</p>
+    <p>Tijdens de stage ben ik erachter gekomen dat ik het leuker vind om verschillende taken door de week heen te hebben, in plaats van alleen met front-end bezig te zijn. Daarnaast vind ik het fijn om bij het gehele proces betrokken te zijn, van ontwerpen tot het bouwen van een website.</p>
   </section>
 
   <section>
     <h2>Wat vond ik goed gaan?</h2>
-    <p>Het werken in teamverband ging eigenlijk de gehele stage goed. Alles was altijd netjes op tijd af, en als ik ergens mee vastzat, was er altijd wel iemand om te helpen. Ook vind ik dat ik mijzelf in korte tijd heb kunnen aanpassen aan de werkwijze van TwoPine.</p>
+    <p>Het werken in teamverband ging eigenlijk de gehele stage goed. Alles was altijd netjes op tijd af, en als ik ergens mee vastzat, was er altijd wel iemand om te helpen. Ook vind ik dat ik mijzelf in korte tijd heb kunnen aanpassen aan de werkwijze van Twopine.</p>
   </section>
+
   <section>
-    <h2>Wat neem ik mee naar het volgende semester/ visie op afstuderen?</h2>
-    <p>Hoewel ik tijdens de stage veel verschillende projecten heb gehad, heb ik bijna geen doelgroepen testen en onderzoeken opgezet. Dit is iets wat ik op school altijd leuk vond om te doen. Ik zou dit tijdens het vervolg van mijn opleiding of tijdens het afstuderen graag nog willen doen.</p>
-    <p>Ook zou ik volgende keer vaker feedbackmomenten willen inplannen. De afgelopen maanden heb ik alleen feedback gekregen als ik ergens niet uitkwam of als ik een project opleverde.</p>
+    <h2>Wat neem ik mee naar het volgende semester/visie op afstuderen?</h2>
+    <p>Hoewel ik tijdens de stage veel verschillende projecten heb gehad, heb ik bijna geen doelgroeptests en onderzoeken opgezet. Dit is iets wat ik op school altijd leuk vond om te doen. Ik zou dit tijdens het vervolg van mijn opleiding of tijdens het afstuderen graag nog willen doen.</p>
+    <p>Ook zou ik de volgende keer vaker feedbackmomenten willen inplannen. De afgelopen maanden heb ik alleen feedback gekregen als ik ergens niet uitkwam of als ik een project opleverde.</p>
   </section>
 
   <section>
     <h2>Hoe heb ik mijn stage ervaren?</h2>
-    <p>Ik kan niet anders zeggen dan dat ik erg blij ben met hoe mijn stage is verlopen. TwoPine was een perfecte plek om te leren en om te proeven van het bedrijfsleven. Ik zou het dan ook zeker aanraden aan andere studenten om hier stage te lopen.</p>
+    <p>Ik kan niet anders zeggen dan dat ik erg blij ben met hoe mijn stage is verlopen. Twopine was een perfecte plek om te leren en om te proeven van het bedrijfsleven. Ik zou het dan ook zeker aanraden aan andere studenten om hier stage te lopen.</p>
     <br>
-    <p>TwoPine bedankt!</p>
+    <p>Twopine bedankt!</p>
 
     <section id="fotocollage">
       <div class="collage">
@@ -45,7 +46,6 @@ import navbar from '@/components/Navbar.vue';
         <img src="/img/fotos/foto7.jpeg" alt="Stagemarkt Haagse Hogeschool" onclick="openFullscreen(this.src, this.alt)">
       </div>
     </section>
-
   </section>
 
   <div id="fullscreen-container" onclick="closeFullscreen()">
@@ -58,7 +58,8 @@ import navbar from '@/components/Navbar.vue';
 
 </template>
 
-<style scoped>
+
+<style>
 /* Fotocollage sectie */
 #fotocollage {
   margin-top: 2rem;
@@ -94,7 +95,7 @@ import navbar from '@/components/Navbar.vue';
 
 #fullscreen-container img {
   max-width: 90%;
-  max-height: 1250px;
+  max-height: 1080px;
   border-radius: 8px;
 }
 </style>

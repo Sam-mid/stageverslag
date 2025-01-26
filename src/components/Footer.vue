@@ -36,6 +36,7 @@ footer {
 
   p{
     margin: 5px;
+    font-size: 0.9em;
   }
 }
 
