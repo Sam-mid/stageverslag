@@ -57,18 +57,19 @@ header h3 {
 main {
   position: relative;
   margin: 20px auto;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 section {
   position: relative;
   margin: 20px auto;
-  max-width: 800px;
-  padding: 20px;
+  max-width: 1000px;
+  padding: 20px 50px;
   background: transparent;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   z-index: 1;
+
 }
 
 section::before {
@@ -79,7 +80,7 @@ section::before {
   width: 100%;
   height: 100%;
   background: rgb(56, 56, 56);
-  filter: blur(15px);
+  filter: blur(0px);
   border-radius: 2vw;
   z-index: -1;
 }
@@ -117,12 +118,15 @@ section blockquote {
 /* Links */
 section a {
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline #3a86f9;
+  text-decoration-thickness: 3px;
   font-weight: bold;
 }
 
 section a:hover {
-  text-decoration: underline;
+  text-decoration: underline #40e55e;
+  text-decoration-thickness: 3px;
+
 }
 
 /* Styling voor figuren binnen secties */
@@ -193,6 +197,32 @@ section figure figcaption {
   font-style: italic;
 }
 
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+
+  }
+}
+
+button{
+  position: relative;
+  padding: 20px 50px;
+  background: rgb(56, 56, 56);
+  border-radius: 30px;
+  z-index: 1;
+
+  h2{
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-shadow: 3px 2px #3a86f9;
+    margin: 0;
+    padding: 5px;
+  }
 
 /* Responsiviteit */
 @media (max-width: 768px) {
@@ -212,7 +242,9 @@ section figure figcaption {
   section h3 {
     font-size: 1.2rem;
   }
+
 }
+
 </style>
 
 

@@ -1,23 +1,9 @@
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  window.openFullscreen = (src, alt) => {
-    const fullscreenContainer = document.getElementById('fullscreen-container');
-    const fullscreenImage = document.getElementById('fullscreen-image');
-    const fullscreenCaption = document.getElementById('fullscreen-caption');
+<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
+import navbar from '@/components/Navbar.vue';
 
-    fullscreenImage.src = src;
-    fullscreenCaption.textContent = alt;
-    fullscreenContainer.style.display = 'flex';
-  };
-
-  window.closeFullscreen = () => {
-    const fullscreenContainer = document.getElementById('fullscreen-container');
-    fullscreenContainer.style.display = 'none';
-  };
-});
 </script>
 <template>
-
+  <navbar/>
   <header>
     <h1>Ondernemende houding en vaardigheden</h1>
     <h3>

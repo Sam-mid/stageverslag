@@ -1,4 +1,11 @@
+<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
+import navbar from '@/components/Navbar.vue';
+
+</script>
+
 <template>
+  <navbar/>
+
 <body>
 <header>
   <h1>Stage Uitwisseling Ervaring</h1>
@@ -78,5 +85,3 @@
 
 </style>
 
-<script>
-</script>

@@ -1,8 +1,9 @@
-<script>
+<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
+import navbar from '@/components/Navbar.vue';
 </script>
 
 <template>
-
+<navbar/>
   <header>
     <h1>Algemene reflectie</h1>
   </header>
@@ -73,7 +74,7 @@
 /* Grid voor de afbeeldingen */
 .collage {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsieve kolommen */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsieve kolommen */
   gap: 1rem; /* Ruimte tussen de afbeeldingen */
   justify-items: center;
 }

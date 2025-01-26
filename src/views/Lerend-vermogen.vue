@@ -1,8 +1,9 @@
-<script>
+<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
+import navbar from '@/components/Navbar.vue';
 </script>
 
 <template>
-
+  <navbar/>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

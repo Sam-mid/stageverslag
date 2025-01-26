@@ -1,7 +1,9 @@
-<script>
+<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
+import navbar from '@/components/Navbar.vue';
 
 </script>
 <template>
+  <navbar/>
   <header>
     <h1>Conceptualiseren</h1>
     <h3>Ik ben in staat me te verdiepen in de probleemstelling en de doelgroep. Ik pas creatieve technieken toe om tot
