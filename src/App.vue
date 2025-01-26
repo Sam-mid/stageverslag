@@ -8,6 +8,25 @@
 export default {
   name: 'App',
 };
+
+import {defineComponent} from "vue";
+
+document.addEventListener("DOMContentLoaded", () => {
+  window.openFullscreen = (src, alt) => {
+    const fullscreenContainer = document.getElementById('fullscreen-container');
+    const fullscreenImage = document.getElementById('fullscreen-image');
+    const fullscreenCaption = document.getElementById('fullscreen-caption');
+
+    fullscreenImage.src = src;
+    fullscreenCaption.textContent = alt;
+    fullscreenContainer.style.display = 'flex';
+  };
+
+  window.closeFullscreen = () => {
+    const fullscreenContainer = document.getElementById('fullscreen-container');
+    fullscreenContainer.style.display = 'none';
+  };
+});
 </script>
 
 <style>

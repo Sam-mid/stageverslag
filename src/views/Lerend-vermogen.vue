@@ -1,5 +1,13 @@
 <script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 import navbar from '@/components/Navbar.vue';
+
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const navigateTo = (url: string) => {
+  router.push(url); // Navigeren naar een andere route binnen de app
+};
 </script>
 
 <template>
@@ -80,6 +88,21 @@ import navbar from '@/components/Navbar.vue';
         <figcaption id="fullscreen-caption"></figcaption>
       </figure>
     </div>
+
+    <div class="buttons">
+      <button id="uitwisseling" @click="navigateTo('/home/projectmatig-werken')">
+        <h2>Vorige</h2>
+      </button>
+
+      <button id="uitwisseling" @click="navigateTo('/home')">
+        <h2>Home</h2>
+      </button>
+
+      <button id="reflectie" @click="navigateTo('/home/maatschappelijke-verantwoordelijkheid')">
+        <h2>Volgende</h2>
+      </button>
+    </div>
+
   </main>
 </template>
 

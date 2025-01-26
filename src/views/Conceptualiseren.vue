@@ -1,7 +1,15 @@
 <script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 import navbar from '@/components/Navbar.vue';
 
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const navigateTo = (url: string) => {
+  router.push(url); // Navigeren naar een andere route binnen de app
+};
 </script>
+
 <template>
   <navbar/>
   <header>
@@ -68,6 +76,20 @@ import navbar from '@/components/Navbar.vue';
     <p>Ondertussen is er niet heel veel meer met het concept gebeurd omdat het erg druk werd met andere projecten. Maar ik heb het wel op de gezamenlijke repository gezet zodat er iemand in de toekomst mee verder kan. De doelgroep voor dit project was niet heel concreet dus ik heb me niet echt kunnen verdiepen. </p>
     <p>Wat goed vond gaan is dat ik uiteindelijk ook een eerste proof of concept heb kunnen maken dat ik kon laten zien aan het bedrijf. De volgende keer zou ik wat meer creatieve technieken toepassen in plaats van alleen te brainstormen. Hierdoor had ik ook niet zo veel verschillende ideeën. Het concept zou nog verder uitgewerkt kunnen worden. bijvoorbeeld, wat doe speler 3? en kan het bord oneindig lang worden?</p>
   </section>
+
+  <div class="buttons">
+    <button id="uitwisseling" @click="navigateTo('/home/implementeren-testen-opleveren')">
+      <h2>Vorige</h2>
+    </button>
+
+    <button id="uitwisseling" @click="navigateTo('/home')">
+      <h2>Home</h2>
+    </button>
+
+    <button id="reflectie" @click="navigateTo('/home/ontwerpen-en-prototypen')">
+      <h2>Volgende</h2>
+    </button>
+  </div>
 
   <div id="fullscreen-container" onclick="closeFullscreen()">
     <span class="close-button">&times;</span>

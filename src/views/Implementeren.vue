@@ -1,5 +1,13 @@
 <script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 import navbar from '@/components/Navbar.vue';
+
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const navigateTo = (url: string) => {
+  router.push(url); // Navigeren naar een andere route binnen de app
+};
 </script>
 
 <template>
@@ -100,6 +108,21 @@ import navbar from '@/components/Navbar.vue';
       In de toekomst zou ik ook uitgebreider willen testen door andere mensen erbij te betrekken. Voor deze opdracht was er niet echt een duidelijke doelgroep meegegeven, waardoor ik niet goed heb kunnen testen of de pagina wel aansloot bij gebruikers.
       <p> Tijdens het project merkte ik ook dat de klant niet altijd mee werkte. Zelfs nadat het ontwerp was goedgekeurd, kreeg ik nog feedback over het ontwerp. Dit heeft het hele proces vertraagd. Ik neem deze ervaring mee als leerpunt voor de toekomst.</p>
     </section>
+
+    <div class="buttons">
+      <button id="uitwisseling" @click="navigateTo('/home/technische-kennis-en-analyse')">
+        <h2>Vorige</h2>
+      </button>
+
+      <button id="uitwisseling" @click="navigateTo('/home')">
+        <h2>Home</h2>
+      </button>
+
+      <button id="reflectie" @click="navigateTo('/home/conceptualiseren')">
+        <h2>Volgende</h2>
+      </button>
+    </div>
+
   </main>
 
   <div id="fullscreen-container" onclick="closeFullscreen()">

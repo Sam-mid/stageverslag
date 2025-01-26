@@ -1,27 +1,13 @@
-<script>
-import {defineComponent} from "vue";
-import Navbar from "@/components/Navbar.vue";
+<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
+import navbar from '@/components/Navbar.vue';
 
-document.addEventListener("DOMContentLoaded", () => {
-  window.openFullscreen = (src, alt) => {
-    const fullscreenContainer = document.getElementById('fullscreen-container');
-    const fullscreenImage = document.getElementById('fullscreen-image');
-    const fullscreenCaption = document.getElementById('fullscreen-caption');
+import { useRouter } from 'vue-router';
 
-    fullscreenImage.src = src;
-    fullscreenCaption.textContent = alt;
-    fullscreenContainer.style.display = 'flex';
-  };
+const router = useRouter();
 
-  window.closeFullscreen = () => {
-    const fullscreenContainer = document.getElementById('fullscreen-container');
-    fullscreenContainer.style.display = 'none';
-  };
-});
-
-export default defineComponent({
-  components: {Navbar}
-})
+const navigateTo = (url: string) => {
+  router.push(url); // Navigeren naar een andere route binnen de app
+};
 </script>
 
 <template>
@@ -116,6 +102,16 @@ export default defineComponent({
     <p> Ja, zeker! Ik heb nu de smaak aardig te pakken. Zelfs dit verslag is met behulp van Vue.js gemaakt! </p>
   </section>
 
+<div class="buttons">
+  <button id="uitwisseling" @click="navigateTo('/home')">
+    <h2>Home</h2>
+  </button>
+
+  <button id="reflectie" @click="navigateTo('/home/implementeren-testen-opleveren')">
+    <h2>Volgende</h2>
+  </button>
+</div>
+
   </body>
 
   <div id="fullscreen-container" onclick="closeFullscreen()">
@@ -128,5 +124,9 @@ export default defineComponent({
 
 </template>
 <style>
-
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
 </style>

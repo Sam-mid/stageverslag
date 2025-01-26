@@ -1,7 +1,14 @@
 <script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 import navbar from '@/components/Navbar.vue';
-</script>
 
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const navigateTo = (url: string) => {
+  router.push(url); // Navigeren naar een andere route binnen de app
+};
+</script>
 <template>
   <navbar/>
   <body>
@@ -113,6 +120,20 @@ import navbar from '@/components/Navbar.vue';
     <p>Ik merk wel dat zulke uitgebreide gebruikerstests niet echt gebruikelijk zijn bij TwoPine vanwege een gebrek aan tijd. Maar in de toekomst, bijvoorbeeld tijdens mijn afstudeerstage, zou ik dit graag nog eens willen doen.</p>
   </section>
   </body>
+
+  <div class="buttons">
+    <button id="uitwisseling" @click="navigateTo('/home/conceptualiseren')">
+      <h2>Vorige</h2>
+    </button>
+
+    <button id="uitwisseling" @click="navigateTo('/home')">
+      <h2>Home</h2>
+    </button>
+
+    <button id="reflectie" @click="navigateTo('/home/ondernemende-houding')">
+      <h2>Volgende</h2>
+    </button>
+  </div>
 
   <div id="fullscreen-container" onclick="closeFullscreen()">
     <span class="close-button">&times;</span>

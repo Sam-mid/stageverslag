@@ -1,8 +1,14 @@
 <script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 import navbar from '@/components/Navbar.vue';
 
-</script>
+import { useRouter } from 'vue-router';
 
+const router = useRouter();
+
+const navigateTo = (url: string) => {
+  router.push(url); // Navigeren naar een andere route binnen de app
+};
+</script>
 <template>
   <navbar/>
   <head>
@@ -70,6 +76,18 @@ import navbar from '@/components/Navbar.vue';
     <p>In de toekomst zou ik zeker eerst wat onderzoek doen naar het bedrijf of merk waar ik de reclame voor maak. Om meer inzicht te krijgen in wat mijn rol precies is binnen dit project en wat ik toevoeg op maatschappelijk en ethisch gebied.</p>
     <p>Zou ik in de toekomst dit soort projecten afwijzen? Dat vind ik lastig om te zeggen. Ik zal in de toekomst zeker niet op zoek gaan naar dit soort projecten, maar in sommige gevallen heb je niet de luxe om voor specifieke projecten te kiezen en moet je het doen met wat je aangeboden krijgt.</p>
   </section>
+
+  <div class="buttons">
+    <button id="uitwisseling" @click="navigateTo('/home/lerend-vermogen')">
+      <h2>Vorige</h2>
+    </button>
+
+    <button id="uitwisseling" @click="navigateTo('/home')">
+      <h2>Home</h2>
+    </button>
+
+  </div>
+
   </body>
 
   <div id="fullscreen-container" onclick="closeFullscreen()">

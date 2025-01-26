@@ -1,8 +1,14 @@
 <script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 import navbar from '@/components/Navbar.vue';
 
-</script>
+import { useRouter } from 'vue-router';
 
+const router = useRouter();
+
+const navigateTo = (url: string) => {
+  router.push(url); // Navigeren naar een andere route binnen de app
+};
+</script>
 <template>
   <navbar/>
   <body>
@@ -102,8 +108,25 @@ import navbar from '@/components/Navbar.vue';
       <p> Ik vind dat ik in de loop van de stageperiode steeds meer gewend ben geraakt aan het werken in teamverband en daar ook beter in ben geworden. Dit komt mede door het gebruik van de verschillende communicatiemiddelen die ik heb laten zien. Natuurlijk is dat niet alles; ik bespreek projecten ook vaak in persoon. Toch ben ik het ermee eens dat dit soort tools helpen om een project overzichtelijk te houden, vooral wanneer je er met meerdere mensen aan werkt.</p>
       <p>Wat ik wel nog lastig vind is het vinden van de juiste benamingen in bijvoorbeeld Figma of in mijn code. Bij grote projecten wordt dit snel onoverzichtelijk en lastig te lezen. In de toekomst wil ik hier graag wat beter in worden om mijn werk nog duidelijker over te brengen naar de belanghebbenden.</p>
     </section>
+
+    <div class="buttons">
+      <button id="uitwisseling" @click="navigateTo('/home/ondernemende-houding')">
+        <h2>Vorige</h2>
+      </button>
+
+      <button id="uitwisseling" @click="navigateTo('/home')">
+        <h2>Home</h2>
+      </button>
+
+      <button id="reflectie" @click="navigateTo('/home/lerend-vermogen')">
+        <h2>Volgende</h2>
+      </button>
+    </div>
+
   </main>
   </body>
+
+
 
   <div id="fullscreen-container" onclick="closeFullscreen()">
     <span class="close-button">&times;</span>

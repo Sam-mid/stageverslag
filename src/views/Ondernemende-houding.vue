@@ -1,6 +1,13 @@
 <script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 import navbar from '@/components/Navbar.vue';
 
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const navigateTo = (url: string) => {
+  router.push(url); // Navigeren naar een andere route binnen de app
+};
 </script>
 <template>
   <navbar/>
@@ -100,6 +107,21 @@ import navbar from '@/components/Navbar.vue';
     <p> Hoewel het resultaat goed werkt, weet ik niet of ik de volgende keer dezelfde aanpak zou gebruiken. Ik zou de huidige code niet heel veel meer kunnen uitbreiden, aangezien ik weinig verstand heb van Python-code. Omdat de huidige code afkomstig is van internet en ChatGPT, heb ik tijdens dit project ook weinig nieuws geleerd over Python. </p>
     <p> Achteraf gezien had ik het beter kunnen proberen te maken in JavaScript (ik ben er vrij zeker van dat dat ook had gekund). </p>
   </section>
+
+  <div class="buttons">
+    <button id="uitwisseling" @click="navigateTo('/home/ontwerpen-en-prototypen')">
+      <h2>Vorige</h2>
+    </button>
+
+    <button id="uitwisseling" @click="navigateTo('/home')">
+      <h2>Home</h2>
+    </button>
+
+    <button id="reflectie" @click="navigateTo('/home/projectmatig-werken')">
+      <h2>Volgende</h2>
+    </button>
+  </div>
+
 
   <div id="fullscreen-container" onclick="closeFullscreen()">
     <span class="close-button">&times;</span>

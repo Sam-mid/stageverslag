@@ -16,6 +16,7 @@ const openPDF = (url: string) => {
 </script>
 
 <template>
+  <navbar/>
   <main>
     <section id="inleiding">
 
