@@ -129,11 +129,4 @@ const openPDF = (url: string) => {
   }
   }
 
-
-
-}
-
-
-
-
 </style>

@@ -223,6 +223,7 @@ button{
     margin: 0;
     padding: 5px;
   }
+}
 
 /* Responsiviteit */
 @media (max-width: 768px) {
