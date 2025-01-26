@@ -147,6 +147,7 @@ section figure {
   justify-content: center;
   align-items: center;
   z-index: 9999;
+  overflow: scroll;
 }
 
 #fullscreen-container img {

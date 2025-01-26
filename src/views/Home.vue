@@ -1,11 +1,13 @@
-<script setup lang="ts">
+<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 // import navbar from '@/components/Navbar.vue';
+import ColofonFooter from '../components/Footer.vue';
+
+
 </script>
 
 <template>
-
-  <body>
-<!--    <navbar/>-->
+<!--  <navbar/>-->
+  <main>
   <section id="inleiding">
 
     <h2>Inleiding</h2>
@@ -34,18 +36,27 @@
 
   <section id="competenties" class="compententies">
     <h2>Competenties</h2>
-    <p>Lijst met competenties</p>
     <ul>
+      <h3>Ontwikkelend</h3>
       <li><a href="/home/technische-kennis-en-analyse">Technische kennis en analyse</a></li>
       <li><a href="/home/implementeren-testen-opleveren"> Implementeren, testen en opleveren</a></li>
+      <h3>Ontwerpend</h3>
       <li><a href="/home/conceptualiseren">Conceptualiseren</a></li>
       <li><a href="/home/ontwerpen-en-prototypen">Ontwerpen en prototype</a></li>
+      <h3>Ondernemend</h3>
       <li><a href="/home/ondernemende-houding">Ondernemende houding</a></li>
       <li><a href="/home/projectmatig-werken">Projectmatig werken</a></li>
+      <h3>Betrokken</h3>
       <li><a href="/home/lerend-vermogen">Lerend vermogen</a></li>
       <li><a href="/home/maatschappelijke-verantwoordelijkheid">Maatschappelijke Verantwoordelijkheid</a></li>
     </ul>
   </section>
+
+<section>
+  <h2> Stageterugkomdagen</h2>
+  <p>De terugkomdagen waren een goed incheck moment om te praten met de docent en andere klasgenoten over hun stage of verslag. Dit gaf mij ook inzichten voor het schrijven van mijn eigen verslag.</p>
+  <p>De laatste terugkomdag was vooral leerzaam omdat we feedback kregen om ons concept verslag. De tip die mij erg heeft geholpen is om een introductie en reflectie per onderdeel in het verslag toe te voegen. Dit heeft erg geholpen met duidelijk maken van al mijn bewijsmateriaal. </p>
+</section>
 
   <section id="uitwisseling">
     <h2>Uitwisseling</h2>
@@ -59,7 +70,14 @@
     <h2 id="onderzoeksverslag">Onderzoeksverslag</h2>
     <a href="/onderzoeksresultaten.pdf" target="_blank"> Klik hier voor mijn onderzoeksverslag</a>
   </section>
-  </body>
+
+  <section>
+    <h2>Algemene reflectie</h2>
+    <a href="/home/reflectie" target="_blank">Klik hier voor mijn algemene reflectie</a>
+  </section>
+  </main>
+
+  <ColofonFooter/>
 </template>
 
 <style scoped>

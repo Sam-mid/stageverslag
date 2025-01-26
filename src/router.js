@@ -11,6 +11,7 @@ import LerendVermogen from "./views/Lerend-vermogen.vue";
 import Conceptualiseren from "./views/Conceptualiseren.vue";
 
 import Uitwisseling from "./views/Uitwisseling.vue";
+import Reflectie from "./views/Reflectie.vue";
 
 const routes = [
     { path: '/', component: Start },
@@ -27,6 +28,8 @@ const routes = [
 
 
     {path: '/home/uitwisseling', component: Uitwisseling},
+    {path: '/home/reflectie', component: Reflectie},
+
 ];
 
 const router = createRouter({

@@ -53,7 +53,7 @@
 
 .navbar-container {
   display: flex;
-  flex-direction: column; /* Plaats alles verticaal */
+  flex-direction: row; /* Plaats alles verticaal */
   justify-content: center;
   align-items: center;
   text-align: center; /* Zorg dat de tekst gecentreerd wordt */
@@ -71,7 +71,7 @@
 .navbar-links {
   list-style: none;
   display: flex;
-  flex-direction: column; /* Links verticaal plaatsen */
+  flex-direction: row; /* Links verticaal plaatsen */
   align-items: center; /* Links in het midden uitlijnen */
   gap: 15px;
   margin: 0;

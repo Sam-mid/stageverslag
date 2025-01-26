@@ -97,7 +97,7 @@
       <p>Ik ben wel tevreden met het eindresultaat. Tijdens het ontwikkelproces zou ik volgende keer wel een paar dingen anders doen</p>
       <p> Ik zou het leuk vinden om bij aankomende projecten ook in contact te zijn met de klant en niet alleen maar de link te versturen. Ik denk dat dit belangrijk is bij deze manier van ontwikkelen.</p>
       In de toekomst zou ik ook uitgebreider willen testen door andere mensen erbij te betrekken. Voor deze opdracht was er niet echt een duidelijke doelgroep meegegeven, waardoor ik niet goed heb kunnen testen of de pagina wel aansloot bij gebruikers.
-      <p> Tijdens het project merkte ik ook dat de klant niet altijd consistent werkte. Zelfs nadat het ontwerp was goedgekeurd, kreeg ik nog feedback over het ontwerp. Dit heeft het hele proces vertraagd. Ik neem deze ervaring mee als leerpunt voor de toekomst.</p>
+      <p> Tijdens het project merkte ik ook dat de klant niet altijd mee werkte. Zelfs nadat het ontwerp was goedgekeurd, kreeg ik nog feedback over het ontwerp. Dit heeft het hele proces vertraagd. Ik neem deze ervaring mee als leerpunt voor de toekomst.</p>
     </section>
   </main>
 
